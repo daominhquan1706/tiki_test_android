@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:background="#fff"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/img_product"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="@dimen/marginview"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="13dp"
+        android:layout_weight="1.6"
+        android:adjustViewBounds="true"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/thumb_nail" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_tiki_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginview"
+            android:src="@drawable/ic_tiki_now"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginview"
+            android:text="Điện Thoại Nokia 230 Dual SIM - Hàng Chính Hãng"
+            android:textColor="@color/clearback"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginview"
+            android:baselineAligned="false">
+
+            <TextView
+                android:id="@+id/tv_product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="1.129.000 đ̲"
+                android:textColor="@color/clearback"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tv_product_discount"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="-19%"
+                android:textColor="@color/clearback"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnl_fast_delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginview"
+            android:baselineAligned="false"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/ic_fast_delivery" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/giao_h_ng_nhanh"
+                android:textColor="@color/green"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnl_option_nhieu_mau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginview"
+            android:background="@drawable/product_badge_bg"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_option_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="2dp"
+                android:textAllCaps="false"
+                android:textColor="@color/clearback"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginview"
+            android:orientation="horizontal">
+
+            <RatingBar
+                android:id="@+id/rt_product"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:progressBackgroundTint="@color/gray"
+                android:progressTint="@color/ratingcolor" />
+
+            <TextView
+                android:id="@+id/tv_count_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="(21)"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

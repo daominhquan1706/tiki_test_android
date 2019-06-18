@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="tiki_main_color">#1BA8FF</color>
+    <color name="tiki_main_color_darker">#2691D5</color>
+
+    <color name="green">#1ED327</color>
+    <color name="clearback">#141414</color>
+    <color name="gray">#627676</color>
+    <color name="ratingcolor">#F9C425</color>
+    <color name="background_color">#ECECEC</color>
+    <color name="light_gray">#777777</color>
+    <color name="icon_color_gray">#808080</color>
+</resources>
